@@ -1,0 +1,25 @@
+nav{
+    .logo{
+        color :white;
+
+    }
+    .logo:hover{
+        color :var(--destaque);
+        
+    }
+    border-bottom: 1.5px solid var(--linhas);
+    ul{
+        li{
+            z-index: 1;
+        }
+        li a{
+            border-bottom: 1px solid transparent;
+            color: var(--color-font) !important;
+        }
+        li a:hover{
+           color: var(--destaque) !important;
+           border-bottom: 1px solid var(--destaque);
+        }
+    }
+   
+}

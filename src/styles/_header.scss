@@ -1,0 +1,17 @@
+ header{
+    width: 100%;
+    min-height: 100vh;
+    z-index: 1;
+    h1{
+        font-size: 70px;
+    }
+}
+.home header{
+    background:linear-gradient(rgba(0, 0, 0, 0.600),
+    rgba(0, 0, 0, 0.600)),url("../img/header-img.jpg")center center/cover fixed no-repeat;
+}
+.project header{
+    background:linear-gradient(rgba(0, 0, 0, 0.600),
+    rgba(0, 0, 0, 0.521)),url("../img/header-projetos.jpg")center center/cover fixed no-repeat;
+
+}

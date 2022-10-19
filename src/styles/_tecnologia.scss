@@ -1,0 +1,29 @@
+#tecnologias{
+    min-height: 100vh;
+    .box-kanji{
+        z-index: 0;
+       
+    }
+    h2{
+        font-size: 80px;
+        margin-bottom: 50px;
+    }
+    .box{
+        border: 2px solid var(--destaque);
+        background: transparent;
+        width: 150px;
+        height: 150px;
+        color:var(--destaque);
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+        font-size: 100px;
+    }
+    .box:hover{
+        background: var(--destaque);
+        color: var(--color-hover);
+        box-shadow: var(--shadow);
+    }
+}
